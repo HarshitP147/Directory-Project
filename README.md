@@ -11,4 +11,10 @@ For the images to display in the applet I have used Pillow library (pip install 
 Again to represent the data in the tabular format I have used tabulate library (pip install tabulate). This is a module usually used to display all the data in a tabular format.
 Any type of data can be presented using this module.
 
+Also do make sure to change the directory of the images being accessed as you will see in the code. 
+
+
+
+This was the project I made during the lockdown and as a school project for class 12.
+
 Any type of suggestions or improvement for this project would be welcome.
