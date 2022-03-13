@@ -1,6 +1,6 @@
 # Directory-Project
 
-Greetings!!
+### Greetings!!
 
 This is a simple Telephone directory project that stores the telephone number, mobile number, email address and home address of any name of the person you enter the data in. All the data you enter will be asked and stored in the database.
 This project uses the MY-SQL database my oracle. So make sure to change your password while downloading the file and before executing the code according to your own password of mysql.
