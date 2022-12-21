@@ -6,7 +6,7 @@ from PIL import ImageTk,Image
 from tabulate import tabulate   
 
 #Establishing a connection
-con=m.connect(host='localhost',user='root',passwd='yourpasswordHere')
+con=m.connect()
 cur=con.cursor()
 cur.execute("create database if not exists Directory")
 cur.execute("use directory")
@@ -16,7 +16,7 @@ root=Tk()
 root.title('Project Telephone directory')
 root.geometry('406x406')
 root.resizable(0,0)
-photo=PhotoImage(file="\\Project\\prjicon.png")   
+photo = PhotoImage(file='./prjicon.png')
 root.iconphoto(False,photo)
 root.focus()
 
@@ -37,7 +37,7 @@ fr.grid(row=0,column=0)
 fr1=LabelFrame(root)
 fr1.grid(row=1,column=0)
 
-m_i=ImageTk.PhotoImage(Image.open("\\Project\\directory.png"))
+m_i = ImageTk.PhotoImage(Image.open("./directory.png"))
 lb=Label(fr,image=m_i)
 lb.grid(column=1)
 
